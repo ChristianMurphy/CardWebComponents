@@ -1923,7 +1923,7 @@ function (_HTMLElement) {
   _createClass(myCard, null, [{
     key: "observedAttributes",
     get: function get() {
-      return ['source'];
+      return ["source"];
     }
   }]);
 
@@ -1940,9 +1940,9 @@ function (_HTMLElement) {
 
     _this = _possibleConstructorReturn(this, (_getPrototypeOf2 = _getPrototypeOf(myCard)).call.apply(_getPrototypeOf2, [this].concat(args)));
     var idComponent, urlMessages, urlCss;
-    var path = "".concat(_this.getAttribute('messagesPath'));
-    idComponent = "".concat(_this.getAttribute('id'));
-    urlCss = "".concat(_this.getAttribute('cssPath'));
+    var path = "".concat(_this.getAttribute("messagesPath"));
+    idComponent = "".concat(_this.getAttribute("id"));
+    urlCss = "".concat(_this.getAttribute("cssPath"));
     /**
     /* Build the url of the messages according to host page language
     /* Supported language: en-US, fr-FR, es-ES, nl-NL (Can be extended...)
@@ -1950,28 +1950,28 @@ function (_HTMLElement) {
     */
 
     switch (langPage) {
-      case 'fr-FR':
-        urlMessages = path + 'i18n/' + langPage;
+      case "fr-FR":
+        urlMessages = path + "i18n/" + langPage;
         break;
 
-      case 'es-ES':
-        urlMessages = path + 'i18n/' + langPage;
+      case "es-ES":
+        urlMessages = path + "i18n/" + langPage;
         break;
 
-      case 'en-US':
-        urlMessages = path + 'i18n/' + langPage;
+      case "en-US":
+        urlMessages = path + "i18n/" + langPage;
         break;
 
-      case 'nl-NL':
-        urlMessages = path + 'i18n/' + langPage;
+      case "nl-NL":
+        urlMessages = path + "i18n/" + langPage;
         break;
 
       default:
-        urlMessages = path + 'i18n/en-US';
+        urlMessages = path + "i18n/en-US";
     }
 
     _this.SD = _this.attachShadow({
-      mode: 'open'
+      mode: "open"
     });
     _this.baseId = idComponent;
     _this.base = urlMessages;
@@ -2015,13 +2015,13 @@ function (_HTMLElement) {
 
       var articleListFirstItem = shadowroot.querySelector(shadowFirstItem);
       var articleToggle = shadowroot.querySelector(shadowList);
-      articleList.classList.toggle('card__social--active');
-      articleToggle.classList.toggle('share-expanded');
+      articleList.classList.toggle("card__social--active");
+      articleToggle.classList.toggle("share-expanded");
 
-      if (articleToggle.getAttribute('aria-expanded') === 'false') {
-        articleToggle.setAttribute('aria-expanded', 'true');
+      if (articleToggle.getAttribute("aria-expanded") === "false") {
+        articleToggle.setAttribute("aria-expanded", "true");
       } else {
-        articleToggle.setAttribute('aria-expanded', 'false');
+        articleToggle.setAttribute("aria-expanded", "false");
         articleToggle.focus();
       }
     }
@@ -2059,9 +2059,9 @@ function (_HTMLElement) {
   return myCard;
 }(_wrapNativeSuper(HTMLElement));
 /**
-/* Register the new item my-card
-/* (customizable)
-*/
+ * Register the new item my-card
+ * (customizable)
+ */
 
 
-customElements.define('my-card', myCard);
+customElements.define("my-card", myCard);
