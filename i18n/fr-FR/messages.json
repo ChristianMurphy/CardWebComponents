@@ -5,15 +5,17 @@
   "linkMenu1": {
     "id": "museum-menu-item-1",
     "cssClass": "share-icon lightblue",
-    "glyphicon": "fab fa-twitter",
-    "label": "Twitter: mozVR",
+    "glyphicon": "brands/twitter.svg",
+    "iconColor": "icon-white",
+    "label": "Twitter : uPortal",
     "link": "https://twitter.com/uPortal",
-    "name": "test"
+    "name": "Twitter : uPortal"
   },
   "linkMenu2": {
     "id": "museum-menu-item-2",
     "cssClass": "share-icon strongblue",
-    "glyphicon": "fas fa-envelope",
+    "glyphicon": "solid/envelope.svg",
+    "iconColor": "icon-white",
     "label": "Contact",
     "link": "mailto:uportal-user@apereo.org",
     "name": "Contact"
@@ -21,7 +23,8 @@
   "linkMenu3": {
     "id": "museum-menu-item-3",
     "cssClass": "share-icon black",
-    "glyphicon": "fab fa-github",
+    "glyphicon": "brands/github.svg",
+    "iconColor": "icon-white",
     "label": "Github : uPortal",
     "link": "https://github.com/jasig/uPortal",
     "name": "Github : uPortal"
@@ -29,14 +32,15 @@
   "List": [{ "tag": "Open Source" }, { "tag": "Apereo" }, { "tag": "Portail" }],
   "paragraphs": [
     {
-      "para": "<a href='http://www.apereo.org/uportal' target='_blank'>uPortal</a> est une plateforme de portail web Java gratuite et opensource, développée et maintenue par des personnel de l'Enseignement Supérieur sous la coordination de la Fondation <a href='http://www.apereo.org/' target='_blank'>Apereo</a>. uPortal peut aggréger du contenu, présenter des applications en libre-service, personnaliser la présentation et le contenu en fonction des groupes et des attributs utilisateur, piloter des applications pour appareils mobiles et permettre une personnalisation avancée et participative de l'expérience du portail. uPortal prend en charge la spécification de portlet Java JSR-286 et JSR-168 pour inclure vos applications personnalisées dans le portail."
+      "para": "<a href='http://www.apereo.org/uportal' rel='noreferrer noopener' target='_blank'>uPortal</a> est une plateforme de portail web Java gratuite et opensource, développée et maintenue par des personnels de l'Enseignement Supérieur sous la coordination de la Fondation <a href='http://www.apereo.org/' rel='noreferrer noopener' target='_blank'>Apereo</a>. uPortal peut agréger du contenu, présenter des applications en libre-service, personnaliser la présentation et le contenu en fonction des groupes et des attributs utilisateur, piloter des applications pour appareils mobiles et permettre une personnalisation avancée et participative de l'expérience du portail. uPortal prend en charge la spécification de portlet Java JSR-286 et JSR-168 pour inclure vos applications personnalisées dans le portail."
     },
-    { "para": "Welcome to uPortal." }
+    { "para": "Bienvenue sur uPortal." }
   ],
   "button1": {
     "id": "museum-button-1",
     "cssClass": "btn btn-default btn-lg",
-    "glyphicon": "fab fa-github",
+    "glyphicon": "brands/github.svg",
+    "iconColor": "icon-black",
     "label": "Aller sur les sources Github",
     "link": "https://github.com/jasig/uportal-start",
     "name": "uPortal-Start"
@@ -44,7 +48,8 @@
   "button2": {
     "id": "museum-button-2",
     "cssClass": "btn btn-danger btn-lg",
-    "glyphicon": "fas fa-book",
+    "glyphicon": "solid/book.svg",
+    "iconColor": "icon-white",
     "label": "Documentation française",
     "link": "http://jasig.github.io/uPortal/fr/",
     "name": "Manuel"
